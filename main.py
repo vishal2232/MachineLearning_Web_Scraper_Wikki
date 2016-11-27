@@ -1,33 +1,14 @@
-#lets write a Simple script 
-#to get the 20 words and their frequency percentage 
-#with highest frequency in an English Wikipedia article. 
-#applications are recommender systems, chatbots and NLP, sentiment analysis,
-#data visualization,
-#market research
 
-#Beautiful Soup is a Python library 
-#for pulling data out of HTML and XML files.
 from bs4 import BeautifulSoup
-#Requests is one of the most downloaded 
-#Python packages of all time, 
-#pulling in over 7,000,000 downloads every month.
-#HTTP library for pulling pushing and authenticating
+
 import requests
-#lets you do Regular expression operations
-#special text string for describing a search pattern.
-#find and replace
+
 import re
-#The operator module exports a 
-#set of efficient functions 
-#corresponding to the intrinsic operators of Python.
-#comparison, addition, greater than less then
+
 import operator
 #parses json, formats it
 import json
-#The module provides just one function, 
-#tabulate, which takes a list of lists or another 
-#tabular data type as the first argument, 
-#and outputs a nicely formatted plain-text table:
+
 from tabulate import tabulate
 #system calls, dealw with user arguments
 import sys
